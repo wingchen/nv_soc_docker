@@ -1,4 +1,4 @@
-# nv_soc_docker
+# vision-robotics
 
 This repo hosts a docker file that builds a docker image with vision related robotic packages you can find on Nvidia SoCs. This way, when you are working on SoC software you can also use the docker image for test case environments, for example on circleci.com.
 
@@ -11,3 +11,7 @@ This repo hosts a docker file that builds a docker image with vision related rob
 ### TODO:
 
 1. pytorch
+
+## LICENSE
+
+MIT
