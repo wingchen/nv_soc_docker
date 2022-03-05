@@ -160,6 +160,7 @@ RUN curl --silent --location --location-trusted \
 
 
 # finally, install some common python packages
+RUN pip3 install torch==1.10.2
 RUN pip3 install pyserial==3.4
 RUN pip3 install pytest==6.2.4
 
